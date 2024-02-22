@@ -1,0 +1,21 @@
+Package: pro
+Title: Supporting Code for Miscellaneous Purposes
+URL: https://github.com/yqgchen/pro
+BugReports: https://github.com/yqgchen/pro/issues
+Version: 0.1.0
+Date: 2024-02-22
+Authors@R: c(
+    person(given = "Yaqing",
+           family = "Chen",
+           role = c("aut", "cre"),
+           email = "yqchen@stat.rutgers.edu"))
+Maintainer: Yaqing Chen <yqchen@stat.rutgers.edu>
+Description: Provides supporting code for various purposes.
+License: BSD_3_clause + file LICENSE
+Encoding: UTF-8
+LazyData: false
+Imports:
+    stats
+Suggests: 
+    testthat
+RoxygenNote: 7.2.3
